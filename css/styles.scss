@@ -1,0 +1,121 @@
+$color-primary:#525252;
+$color-secondary: #ef4744;
+$color-tan: #c4bda5;
+$color-mid: #414141;
+$color-dark: #313131;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Roboto", "Open Sans", sans-serif;
+$header-font: "Roboto";
+
+body {
+    font-family: $body-font;
+    background-color: $color-tan;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-tan;
+    }
+}
+
+.site-footer {
+    background-image: linear-gradient($color-mid, $color-dark);
+    padding: 20px 0;
+}
+
+footer{
+    h5{
+        color: white;
+    }
+}
+
+header{
+    margin: 0;
+    padding: 10px;
+    background-color: $color-dark;
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+/* .navbar {
+    background-color: $color-mid;
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer{
+    a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.icons {
+    width: 1.5rem;
+}
+
+.img-thumbnail{
+    border-radius: 250px;
+    width: 250px;
+}
+
+img.card-img-top{
+    width: 200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+// MODAL -------
+
+#reserveModal {
+    div {
+        .modal-header {
+            background-color: $color-secondary;
+            color: white
+        }
+
+    }
+}
+
+#loginModal {
+    div {
+        .modal-header {
+            background-color: $color-mid;
+            color: white;
+        }
+    }
+}

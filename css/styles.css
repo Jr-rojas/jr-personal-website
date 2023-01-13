@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  background-color: #c4bda5; }
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto"; }
+
+h2 {
+  color: #525252; }
+
+header h2 {
+  color: #c4bda5; }
+
+.site-footer {
+  background-image: linear-gradient(#414141, #313131);
+  padding: 20px 0; }
+
+footer h5 {
+  color: white; }
+
+header {
+  margin: 0;
+  padding: 10px;
+  background-color: #313131;
+  color: white; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+/* .navbar {
+    background-color: $color-mid;
+} */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+footer a:hover {
+  text-decoration: underline;
+  color: grey; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637DD; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.icons {
+  width: 1.5rem; }
+
+.img-thumbnail {
+  border-radius: 250px;
+  width: 250px; }
+
+img.card-img-top {
+  width: 200px;
+  margin: auto;
+  padding: 1rem; }
+
+#reserveModal div .modal-header {
+  background-color: #ef4744;
+  color: white; }
+
+#loginModal div .modal-header {
+  background-color: #414141;
+  color: white; }
