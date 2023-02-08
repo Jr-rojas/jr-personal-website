@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-sm">
             <a class="navbar-brand" href="#">Jersain Rojas</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,84 +51,174 @@
     </header>
 
     <!--    PageHeader    -->
-    <div class="container-fluid my-4">
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="./public/img/IMG_8128.JPG" alt="avatar of Jersain" class="img-thumbnail">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="./public/img/IMG_8128.JPG" alt="avatar of Jersain" class="img-thumbnail">
+            </div>
+            <div class="col-sm-8">
+                <p class="col-sm lead">Hi! I'm</p>
+                <h1 class="col-sm display-4 text-white">Jersain Rojas</h1>
+                <h2 class="col-md text-white">Frontend Developer</h2>
+                <hr class="my-4">
+                <p>A software developer ready to showcase my skills in the tech industry.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--    ABOUT ME    -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container text-light col-md aboutMe">
+                <h2 class="text-white">About Me</h2>
+                <p>A web-developer based on Califonia. I have experience from project in web design/building and
+                    customization.
+                    <br> Also I am good at:
+                </p>
+                <p class="border rounded-sm border-danger d-inline p-1">HTML</p>
+                <p class="border rounded-sm border-danger d-inline p-1">CSS</p>
+                <p class="border rounded-sm border-danger d-inline p-1">JavaScript</p>
+                <p class="border rounded-sm border-danger d-inline p-1">GitHub</p>
+                <p class="border rounded-sm border-danger d-inline p-1">Node Js</p>
+                <br>
+                <button class="btn btn-danger btn-lg my-3">Resume</button>
+            </div>
+
+            <div class="container bg-danger col-md">
+                <h2 class="text-white py-2">This website was crated with:</h2>
+                <div class="card-group py-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-center"><i class="fa-brands fa-html5 fa-3x"></i></p>
+                        </div>
                     </div>
-                    <div class="col-lg-8">
-                        <p class="col-lg lead">Hi! I'm</p>
-                        <h1 class="col-lg display-4"> Jersain Rojas</h1>
-                        <hr class="my-4">
-                        <p>A software developer ready to showcase my skills in the tech industry.</p>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-center"><i class="fa-brands fa-css3-alt fa-3x"></i></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-center"><i class="fa-brands fa-js-square fa-3x"></i></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text text-center"><i class="fa-brands fa-bootstrap fa-3x"></i></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-<!--    WEBSITE BODY    -->
-    <div class="container-fluid my-5">
-        <h1 class="text-white text-center">This website was crated with:</h1>
-        <div class="card-group">
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text text-center"><i class="fa-brands fa-html5 fa-5x"></i></p>
-                </div>
+    <div class="container-fluid skill">
+        <div class="container skills">
+            <h2 class="text-center">Technical SKills</h2>
+            <p class="text-light mb-0">HTML</p>
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar bg-danger text-bold" role="progressbar" style="width: 100%" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">100%</div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text text-center"><i class="fa-brands fa-css3-alt fa-5x"></i></p>
-                </div>
+            <p class="text-light mb-0">CSS</p>
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar bg-danger text-bold" role="progressbar" style="width: 70%" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">70%</div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text text-center"><i class="fa-brands fa-js-square fa-5x"></i></p>
-                </div>
+            <p class="text-light mb-0">JavaScript</p>
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar bg-danger text-bold" role="progressbar" style="width: 85%" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">850%</div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text text-center"><i class="fa-brands fa-bootstrap fa-5x"></i></p>
-                </div>
+            <p class="text-light mb-0">Python</p>
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar bg-danger text-bold" role="progressbar" style="width: 60%" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">60%</div>
             </div>
         </div>
     </div>
 
-    <div class="p-3">
-        <h1>Some of my Projects</h1>
+
+
+    <div class="container">
+        <h1 class="text-white font-weight-bold text-center">Projects</h1>
         <div class="card-deck">
-            <div class="card border-primary">
-                <div class="card-body bg-transperent border-primary d-flex  justify-content-center align-items-center">
-                        <i class="fa fa-smile fa-3x m-2"></i>
-                        <i class="fa fa-arrow-pointer fa-3x m-2"></i>
+            <div class="card">
+                <div class="card-body bg-transperent d-flex  justify-content-center align-items-center">
+                    <i class="fa fa-smile fa-3x m-2"></i>
+                    <i class="fa fa-arrow-pointer fa-3x m-2"></i>
                 </div>
-                <div class="card-footer text-primary text-center">
-                  <h5 class="card-title">Small game</h5>
-                  <p class="card-text">First ever project, a fun game</p>
-                </div>
-            </div>
-            <div class="card border-primary">
-                <div class="card-body bg-transperent border-primary d-flex  justify-content-center align-items-center">
-                        <i class="fa fa-smile fa-3x m-2"></i>
-                        <i class="fa fa-arrow-pointer fa-3x m-2"></i>
-                </div>
-                <div class="card-footer text-primary text-center">
-                  <h5 class="card-title">Class Project</h5>
-                  <p class="card-text">First ever project, a fun game</p>
+                <div class="card-footer bg-secondary text-light text-center">
+                    <h5 class="card-title">Small game</h5>
+                    <p class="card-text">First ever project, a fun game</p>
                 </div>
             </div>
             <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card-body bg-transperent d-flex  justify-content-center align-items-center">
+                    <i class="fa fa-smile fa-3x m-2"></i>
+                    <i class="fa fa-arrow-pointer fa-3x m-2"></i>
+                </div>
+                <div class="card-footer text-light text-center bg-secondary">
+                    <h5 class="card-title">Class Project</h5>
+                    <p class="card-text">First ever project, a fun game</p>
+                </div>
             </div>
+            <div class="card">
+                <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal
+                        height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid" id="contactMe">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="card text-center">
+                    <span><i class="fa fa-user fa-2x m-4 contact-fa"></i></span>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-danger">Resume</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="card text-center">
+                    <span><i class="fa fa-envelope-o fa-2x m-4 contact-fa"></i></span>
+                    <div class="card-body">
+                        <button type="button" onclick="window.location.href='mailto: j.rojas_7@hotmail.com'"
+                            class="btn btn-outline-danger">
+                            J.rojas_7@hotmail.com
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="YourEmail@example.com">
+                </div>
+                <div class="col-sm-12">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger ml-3">Submit</button>
+            </div>
+        </form>
+    </div>
+
 
     <!--    ICONS    -->
     <!-- <div class="container pb-4 fixed-bottom">
@@ -175,8 +265,9 @@
                         <h5>Email:</h5>
                         <!-- <a role="button" class="btn btn-link" href="mailto:j.rojas_7@hotmail.com"><i
                                 class="fa fa-envelope-o fa-lg text-primary"></i> J.rojas_7@hotmail.com</a> -->
-                        <button type="button" onclick="window.location.href='mailto: j.rojas_7@hotmail.com'" class="btn btn-outline-light">
-                             J.rojas_7@hotmail.com
+                        <button type="button" onclick="window.location.href='mailto: j.rojas_7@hotmail.com'"
+                            class="btn btn-outline-light">
+                            J.rojas_7@hotmail.com
                         </button>
                     </div>
                 </div>

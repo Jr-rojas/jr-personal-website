@@ -1,5 +1,5 @@
-$color-primary:#525252;
-$color-secondary: #ef4744;
+$color-primary:#201f1f;
+$color-secondary: #d64732;
 $color-tan: #c4bda5;
 $color-mid: #414141;
 $color-dark: #313131;
@@ -8,19 +8,45 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 $body-font: "Roboto", "Open Sans", sans-serif;
 $header-font: "Roboto";
 
+$theme-colors: (
+  "danger":     $color-secondary
+);
+
 body {
     font-family: $body-font;
-    background-color: $color-tan;
+    background-color: $color-primary;
+}
+
+.jumbotron{
+    background-color: $color-secondary;
+    padding: 100px 25px;
+}
+
+.container-fluid{
+    padding: 60px 50px;
+}
+
+.container{
+    padding: 80px 5px;
+  }
+
+.skills{
+    padding: 40px 20px;
+}
+
+.skill{
+    background-color: $color-mid;
+}
+
+.form-control{
+    margin: 10px 0;
 }
 
 h1,
 h2,
 h3 {
     font-family: $header-font;
-}
-
-h2 {
-    color: $color-primary;
+    color: white;
 }
 
 header {
@@ -31,7 +57,7 @@ header {
 
 .site-footer {
     background-image: linear-gradient($color-mid, $color-dark);
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 footer{
@@ -47,41 +73,27 @@ header{
     color: white;
 }
 
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+.progress{
+    height: 5px;
 }
-
-/* .navbar {
-    background-color: $color-mid;
-} */
 
 a {
     color: inherit;
     text-decoration: none;
 }
 
-footer{
+header{
     a:hover {
-        text-decoration: underline;
-        color: grey;
+        text-decoration: none;
+        color: $color-secondary;
     }
 }
 
-.carousel-caption {
-    background-color: $color-black-transparent;
-}
-
-.carousel {
-    border: solid #5637DD;
-}
-
-#carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
+footer{
+    a:hover {
+        text-decoration: underline;
+        color: $color-secondary;
+    }
 }
 
 .icons {
@@ -99,8 +111,33 @@ img.card-img-top{
     padding: 1rem;
 }
 
-// MODAL -------
+.card{
+    background-color: $color-tan;
+}
 
+#contactMe{
+    background-color: $color-mid;
+}
+
+.contact-fa{
+    border:$color-secondary 2px solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .aboutMe{
+        text-align: center;
+    }
+}
+
+// MODAL -------
+/* 
 #reserveModal {
     div {
         .modal-header {
@@ -118,4 +155,4 @@ img.card-img-top{
             color: white;
         }
     }
-}
+} */
